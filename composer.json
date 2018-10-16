@@ -1,0 +1,27 @@
+{
+    "name": "nalin/lumen-user",
+    "description": "Lumen-User is user management module for Micro Services",
+    "type": "composer-plugin",
+    "require": {
+        "php": "5.6.4",
+        "illuminate/support": "~5.3",
+        "illuminate/database": "~5.3",
+        "dusterio/lumen-passport": "0.2.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nalin tharanga",
+            "email": "nalin@sprii.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Nalin\\LumenUser\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
